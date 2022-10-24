@@ -1,1 +1,63 @@
 /* create new stylesheet here */
+:root {
+    /* put variables here */
+}
+
+* {
+    background-color: rgb(237,237,246)
+}
+
+/* nav */
+
+.header {
+
+}
+
+h1 {
+
+}
+
+.showcase {
+
+}
+
+/* menu */
+
+h2 {
+
+}
+
+/* main */
+
+.about {
+
+}
+
+.left {
+
+}
+
+
+/* cards */
+
+.works {
+
+}
+
+.site-name {
+    
+}
+
+.tiles {
+
+}
+
+/* contact */
+
+.contact {
+
+}
+
+.contact a {
+    
+}
