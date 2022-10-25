@@ -1,6 +1,8 @@
 /* create new stylesheet here */
 :root {
-    /* put variables here */
+    --seafoam: rgb(115,179,191);
+    --textcolor: rgb(61,88,117);
+    --darktext: rgb(49,51,63);
 }
 
 * {
@@ -33,6 +35,11 @@ h2 {
 
 }
 
+.about img {
+    max-width: 10%;
+    max-height: 10%;
+}
+
 .left {
 
 }
@@ -41,15 +48,44 @@ h2 {
 /* cards */
 
 .works {
-
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .site-name {
-    
+    position: relative;
+    margin-left: -11px;
+    border-style: solid;
+    border-color: var(--seafoam);
+    background-color: var(--seafoam);
+    border-width: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    color: var(--textcolor);
+    margin-top: auto;
+    height: 1%;
 }
 
 .tiles {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--seafoam);
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px auto;
+    width: 20%;
+    height: 5%;
+}
 
+.tiles img {
+    max-width: 80%;
+    max-height: 5%;
+    padding: 5px;
+    margin: 5px;
 }
 
 /* contact */
@@ -59,5 +95,5 @@ h2 {
 }
 
 .contact a {
-    
+
 }
