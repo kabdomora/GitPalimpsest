@@ -12,16 +12,38 @@
 
 /* nav */
 
-.header {
-
+.navigation {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 20px;
+    width: 100%;
 }
 
 h1 {
+    display: inline-block;
+    color: var(--textcolor);
+    background: transparent;
+    font-size: 400%;
 
 }
 
-.showcase {
-
+.navigation div ul li a {
+    background: inherit;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+    color: var(--darktext);
+    font-size: larger;
+    font-weight: bolder;
+    border-style: dotted;
+    border-color: var(--seafoam);
 }
 
 /* menu */
