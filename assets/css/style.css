@@ -170,10 +170,22 @@ h2 {
 
 /* contact */
 
-.contact {
-
+.addresses {
+    background-color: var(--seafoam);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 20px;
+    width: 100%;
 }
 
-.contact a {
-
+.addresses ul li a {
+    display: inline-block;
+    color: var(--darktext);
+    font-size: 150%;
+    background: transparent;
+    float: left;
+    margin: 12px 15px 0 5px;
 }
