@@ -56,6 +56,9 @@ h1 {
 
 .about p {
     margin: var(--topmargin) 0 0 300px;
+    color: var(--textcolor);
+    font-weight: bold;
+    text-decoration: wavy;
 }
 
 .about img {

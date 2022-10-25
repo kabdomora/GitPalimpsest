@@ -88,9 +88,10 @@ Repository follows best practices for class/id naming conventions, indentation, 
 
 Repository contains multiple descriptive commit messages.  👌
 
-Repository contains a quality readme with description, screenshot, link to deployed application.
+Repository contains a quality readme  👌 with description, screenshot,  👌  link to deployed application.  👌 
 
-
+Deployed link: https://kabdomora.github.io/GitPalimpsest/
+Deployed screenshot: ![Screenshot](Screenshot-deployed.PNG)
 
 
 
