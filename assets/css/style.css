@@ -46,17 +46,6 @@ h1 {
     border-color: var(--seafoam);
 }
 
-/* menu */
-
-.menu {
-    color: var(--textcolor);
-    position: fixed;
-    margin: var(--topmargin) 0 0 90px;
-    border-right: var(--textcolor);
-    width: 100px;
-    display: inline-block;
-    flex-flow: column;
-}
 
 /* main */
 
@@ -72,13 +61,8 @@ h1 {
 .about img {
     max-width: 10%;
     max-height: 10%;
-    margin: var(--topmargin) 0 0 200px;
+    margin: var(--topmargin) 0 0 2%;
     float: left;
-}
-
-aside {
-    border-right: var(--seafoam);
-
 }
 
 
@@ -88,14 +72,42 @@ aside {
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 h2 {
+    color: var(--textcolor);
+    margin: var(--topmargin) 0 0 10%;
+    border-right: var(--textcolor);
+    width: 100px;
+    display: inline-block;
+    flex-flow: column;
+    float: left;
+}
 
+
+/* tile headers */
+
+.first-site-name {
+    position:relative;
+    border-style: solid;
+    border-color: var(--seafoam);
+    background-color: var(--seafoam);
+    border-width: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    color: var(--textcolor);
+    margin-top: 5px;
+    height: 33px;
+}
+
+.first-site-name a {
+    background-color: var(--seafoam);
+    color: var(--textcolor);
 }
 
 .site-name {
-    position:fixed;
+    position:relative;
     margin-left: -5px;
     border-style: solid;
     border-color: var(--seafoam);
@@ -113,21 +125,48 @@ h2 {
     color: var(--textcolor);
 }
 
-.tiles {
+/* tiles */
 
+.works img {
+    opacity: 0.5;
+}
+
+.works img:hover {
+    opacity: 1.0;
+}
+
+.firsttile {
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent;
+    flex: 0 0 60%;
+    margin: var(--topmargin) 0 20px 200px;
+    max-height: 500px;
+}
+
+.firsttile img {
+    margin-top: -83px;
+    width: 100%;
+    height: 100%;
+    border-color: var(--seafoam);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.tiles {
     border-style: solid;
     border-width: 5px;
     border-color: var(--seafoam);
-    flex: 0 0 200px;
+    flex: 0 0 300px;
     margin: var(--topmargin) 0 20px 200px;
-    height: 100px;
+    height: 150px;
 }
 
 .tiles img {
+    margin-top: -83px;
     width: 100%;
     height: 100%;
 }
-
 
 /* contact */
 
