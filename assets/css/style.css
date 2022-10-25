@@ -3,6 +3,7 @@
     --seafoam: rgb(115,179,191);
     --textcolor: rgb(61,88,117);
     --darktext: rgb(49,51,63);
+    --topmargin: 20px;
 }
 
 * {
@@ -38,6 +39,7 @@ h2 {
 .about img {
     max-width: 10%;
     max-height: 10%;
+    margin: var(--topmargin) 0 0 200px;
 }
 
 .left {
@@ -54,9 +56,15 @@ h2 {
     justify-content: space-between;
 }
 
+h2 {
+    color: var(--textcolor);
+    position: fixed;
+    margin: var(--topmargin) 0 0 115px;
+}
+
 .site-name {
-    position: relative;
-    margin-left: -11px;
+    position:fixed;
+    margin-left: -5px;
     border-style: solid;
     border-color: var(--seafoam);
     background-color: var(--seafoam);
@@ -64,29 +72,34 @@ h2 {
     padding: 5px;
     font-weight: bolder;
     color: var(--textcolor);
-    margin-top: auto;
-    height: 1%;
+    margin-top: 50px;
+    height: 33px;
+}
+
+.site-name a {
+    background-color: var(--seafoam);
+    color: var(--textcolor);
 }
 
 .tiles {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     border-style: solid;
     border-width: 5px;
     border-color: var(--seafoam);
-    padding: 10px;
-    flex: 0 0 300px;
-    margin: 20px auto;
-    width: 20%;
-    height: 5%;
+    flex: 0 0 200px;
+    margin: var(--topmargin) 0 20px 200px;
+    height: 100px;
 }
 
 .tiles img {
-    max-width: 80%;
-    max-height: 5%;
-    padding: 5px;
-    margin: 5px;
+    width: 100%;
 }
+
+/* #thumbnail {
+
+} */
 
 /* contact */
 
