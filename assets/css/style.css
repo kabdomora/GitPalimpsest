@@ -139,9 +139,10 @@ h2 {
     border-style: solid;
     border-width: 5px;
     border-color: transparent;
-    flex: 0 0 60%;
+    flex: 0 0 40%;
     margin: var(--topmargin) 0 20px 200px;
     max-height: 500px;
+    display: block;
 }
 
 .firsttile img {
